@@ -5,8 +5,8 @@ import Logo from "../../../public/assets/dine-market-logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center h-20 px-20">
-      <Image src={Logo} alt="website logo" width={150} height={150} className="w-auto h-auto" />
+    <nav className="flex justify-between items-center h-20 px-16">
+      <Image src={Logo} alt="website logo" width={150} height={150} />
       <div className="pt-2">
             <ul className="flex gap-x-10">
                 <li className="text-lg font-bold">
