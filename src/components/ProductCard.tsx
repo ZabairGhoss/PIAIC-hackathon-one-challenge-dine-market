@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { Card, CardContent } from "./ui/card";
 
 const ProductCard = (props: {
-  imgURL: StaticImageData;
+  imgURL: string | StaticImageData;
   title: string;
   price: number;
 }) => {
