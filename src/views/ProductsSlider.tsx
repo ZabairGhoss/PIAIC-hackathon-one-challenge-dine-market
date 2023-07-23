@@ -22,9 +22,11 @@ const ProductsSlider = (props: Props) => {
           return (
             <ProductCard
               key={product.id}
-              imgURL={product.img}
+              imgURL={product.img as StaticImageData}
               title={product.title}
               price={product.price}
+              category={product.category}
+              id={product.id}
             />
           );
         })}
