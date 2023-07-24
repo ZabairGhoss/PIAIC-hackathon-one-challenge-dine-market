@@ -7,10 +7,9 @@ const getProductDetails = (id: number) => {
 
 const page = ({ params }: { params: { id: number } }) => {
   const result = getProductDetails(params.id);
-  console.log("Result>>",result);
   
   return (
-    <div className="flex flex-wrap justify-evenly mt-[32px]">
+    <div className="flex flex-wrap mt-[32px]">
      {
         result.map((product) => {
           return (
@@ -18,7 +17,10 @@ const page = ({ params }: { params: { id: number } }) => {
                 <div>
                   <Image src={product.img} alt={product.title} />
                 </div>
-                <div></div>
+                <div>
+                  <p>{product.title}</p>
+                  <p>{product.tagline}</p>
+                </div>
             </div>
           );
         })

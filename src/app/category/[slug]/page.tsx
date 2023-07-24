@@ -13,7 +13,7 @@ const page = ({ params }: { params: { slug: string } }) => {
   return (
     <div className="flex flex-wrap justify-evenly mt-[32px]">
       {result.length <= 0 ? (
-        <div>There is no product of {params.slug} added.</div>
+        <div>There is no product of {params.slug} added yet.</div>
       ) : (
         result.map((product) => {
           return (
