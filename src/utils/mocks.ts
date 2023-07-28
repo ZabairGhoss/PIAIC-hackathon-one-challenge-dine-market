@@ -12,6 +12,9 @@ export const Products: Product[] = [
     tagline: "Sweater",
     category: "female",
     img: P1,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
+
   },
   {
     id: 2,
@@ -20,6 +23,8 @@ export const Products: Product[] = [
     tagline: "Dress",
     category: "male",
     img: P2,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 3,
@@ -28,6 +33,8 @@ export const Products: Product[] = [
     tagline: "Sweater",
     category: "female",
     img: P3,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 4,
@@ -36,6 +43,8 @@ export const Products: Product[] = [
     tagline: "Pants",
     category: "kids",
     img: P4,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 5,
@@ -44,6 +53,8 @@ export const Products: Product[] = [
     tagline: "Sweater",
     category: "female",
     img: P3,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 6,
@@ -52,6 +63,8 @@ export const Products: Product[] = [
     tagline: "Dress",
     category: "male",
     img: P2,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 7,
@@ -60,6 +73,8 @@ export const Products: Product[] = [
     tagline: "Sweater",
     category: "male",
     img: P1,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
   {
     id: 8,
@@ -68,5 +83,7 @@ export const Products: Product[] = [
     tagline: "Pants",
     category: "kids",
     img: P4,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in pariatur.",
+    careItems: '',
   },
 ];
