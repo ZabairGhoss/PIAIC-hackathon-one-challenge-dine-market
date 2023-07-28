@@ -6,20 +6,22 @@ import Logo from "../../../public/assets/dine-market-logo.png";
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center h-20 px-16">
+      <Link href={"/"}>
       <Image src={Logo} alt="website logo" width={150} height={150} />
+      </Link>
       <div className="pt-2">
             <ul className="flex gap-x-10">
                 <li className="text-lg font-bold">
-                    <Link href="/female">Female</Link>
+                    <Link href={"/category/female"}>Female</Link>
                 </li>
                 <li className="text-lg font-bold">
-                    <Link href="/male">Male</Link>
+                    <Link href={"/category/male"}>Male</Link>
                 </li>
                 <li className="text-lg font-bold">
-                    <Link href="/kids">Kids</Link>
+                    <Link href={"/category/kids"}>Kids</Link>
                 </li>
                 <li className="text-lg font-bold">
-                    <Link href="/products">All Products</Link>
+                    <Link href={"/products"}>All Products</Link>
                 </li>
             </ul>
       </div>
