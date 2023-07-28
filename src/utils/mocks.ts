@@ -24,7 +24,7 @@ export const Products: Product[] = [
   {
     id: 3,
     title: "Product 03",
-    price: 999,
+    price: 999.05,
     tagline: "Sweater",
     category: "female",
     img: P3,
