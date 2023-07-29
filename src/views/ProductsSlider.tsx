@@ -1,12 +1,24 @@
-import { StaticImageData } from "next/image";
-import ProductCard from "@/components/ProductCard";
-import { Products } from "@/utils/mocks";
+"use client"
+
+import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { Products } from '@/utils/mocks';
+import { StaticImageData } from 'next/image';
+import ProductCard from '@/components/ProductCard';
 
 type Props = {};
 
 const ProductsSlider = (props: Props) => {
-  const featuredProducts = Products.slice(0, 3);
-
+  const settings = {
+    dots: true,
+    infinite: true,
+    arrows: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  };
   return (
     <section className="w-full py-20">
       <div className="flex flex-col gap-5 mb-[32px]">
@@ -17,8 +29,9 @@ const ProductsSlider = (props: Props) => {
           checkout what we have
         </h2>
       </div>
-      <div className="flex flex-wrap justify-evenly mt-[32px]">
-        {featuredProducts.map((product) => {
+      <div>
+        <Slider {...settings}>
+        {Products.map((product) => {
           return (
             <ProductCard
               key={product.id}
@@ -30,6 +43,7 @@ const ProductsSlider = (props: Props) => {
             />
           );
         })}
+        </Slider>
       </div>
     </section>
   );
