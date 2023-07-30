@@ -11,7 +11,7 @@ const Quantity = () => {
   };
 
   const handleDecrement = () => {
-    setQuantity(quantity <= 0 ? 1 : quantity - 1);
+    setQuantity(quantity <= 1 ? 1 : quantity - 1);
   };
 
   return (
@@ -22,7 +22,7 @@ const Quantity = () => {
       >
         <Minus />
       </button>
-      <div className="text-sm">{quantity}</div>
+      <div className="text-sm font-semibold">{quantity}</div>
       <button
         className="w-7 h-7 border rounded-full center"
         onClick={() => handleIncrement()}
