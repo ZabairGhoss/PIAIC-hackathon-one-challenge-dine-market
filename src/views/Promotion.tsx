@@ -52,7 +52,7 @@ const Promotion = () => {
                 <Image
                   src={promCardImg2}
                   alt="male fashion model"
-                  className="w-[280px] h-[340px]"
+                  className="w-[280px] h-[365px]"
                 />
               </div>
             </div>
