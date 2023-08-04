@@ -127,16 +127,16 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-[6rem] border-t-2 border-solid border-[#666] grid grid-cols-3">
-        <p className="mx-[8rem] my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
+        <p className="mx-auto my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
           Copyright &copy; 2023 Dine Market
         </p>
-        <p className="mx-[8rem] my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
+        <p className="mx-auto my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
           Design by.{" "}
           <span className="font-bold text-[1rem] leading-[15px] text-[#212121]">
             Weired Design Studio
           </span>
         </p>
-        <p className="mx-[8rem] my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
+        <p className="mx-auto my-[1.5rem] font-normal text-[1rem] leading-[22px] text-[#666]">
           Code by.{" "}
           <span className="font-bold text-[1rem] leading-[15px] text-[#212121]">
             ZabairGhoss on github
