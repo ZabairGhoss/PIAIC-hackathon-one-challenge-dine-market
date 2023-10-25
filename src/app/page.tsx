@@ -5,7 +5,7 @@ import Newsletter from '@/views/Newsletter'
 import ProductsSlider from '@/views/ProductsSlider'
 import Promotion from '@/views/Promotion'
 
-export const getProductsData = async () => {
+const getProductsData = async () => {
   const result = await client.fetch(`*[_type=='product']{
     title,
     description,
